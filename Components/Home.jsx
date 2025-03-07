@@ -55,7 +55,7 @@ export default function Home({ query, setSearchResult, searchResult }) {
           {query ? (
             <div className="grid">
               {searchResult.map((search) => (
-                <a key={search.id} href={search.links.self}>
+                <a key={search.id} href={search.links.download}>
                   <div className="image" >
                     <img
                       className="image"
